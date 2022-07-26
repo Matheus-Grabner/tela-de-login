@@ -1,0 +1,80 @@
+body{
+    background-image: url(/background.png);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.area-login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    background-color: #181920;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    opacity: 0.9;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login input{
+    margin-top: 12px;
+    background-color: #252A34;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 12px;
+    color: white;
+    padding-left: 10px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.input::placeholder{
+    color: white;
+    font-size: 14px;
+    font-family: 'Secular One', sans-serif;
+}
+
+form [type="submit"]{
+    display: block;
+    background-color:rgba(69,38,63,255);
+    box-shadow: 0 0 10px rgba(69,38,63,255);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    color: white;
+    font-family: 'Secular One', sans-serif;
+}
+
+a{
+    color: #5568FE;
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.texto-login{
+    color: white;
+    font-family: 'Secular One', sans-serif;
+}
+
+.img{
+    width: 210px;
+}
